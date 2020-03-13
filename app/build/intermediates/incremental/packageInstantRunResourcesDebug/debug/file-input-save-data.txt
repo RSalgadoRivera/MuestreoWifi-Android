@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Nov 27 18:50:26 CST 2018
+0.baseType=DIRECTORY
+0.base=/home/rabdos7/AndroidStudioProjects/MuestreoWiFi/app/build/intermediates/assets/debug
+0.path=databases/muestreoWiFi.db
+0.set=ASSET
+count=1

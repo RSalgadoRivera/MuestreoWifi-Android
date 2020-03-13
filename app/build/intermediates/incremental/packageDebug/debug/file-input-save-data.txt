@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Wed Dec 05 13:07:10 CST 2018
+1.base=/home/rabdos7/AndroidStudioProjects/MuestreoWiFi/app/build/intermediates/assets/debug
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=ASSET
+0.path=classes.dex
+0.set=DEX
+0.base=/home/rabdos7/AndroidStudioProjects/MuestreoWiFi/app/build/intermediates/transforms/dexMerger/debug/57
+1.path=databases/muestreoWiFi.db

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/rabdos7/AndroidStudioProjects/MuestreoWiFi/app/src/main/assets"><file name="databases/muestreoWiFi.db" path="/home/rabdos7/AndroidStudioProjects/MuestreoWiFi/app/src/main/assets/databases/muestreoWiFi.db"/></source><source path="/home/rabdos7/AndroidStudioProjects/MuestreoWiFi/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/home/rabdos7/AndroidStudioProjects/MuestreoWiFi/app/src/debug/assets"/></dataSet></merger>

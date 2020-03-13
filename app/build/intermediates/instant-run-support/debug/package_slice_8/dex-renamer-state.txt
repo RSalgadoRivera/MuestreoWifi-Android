@@ -1,0 +1,4 @@
+#Wed Nov 28 23:02:33 CST 2018
+base.0=/home/rabdos7/AndroidStudioProjects/MuestreoWiFi/app/build/intermediates/transforms/dexMerger/debug/47
+path.0=classes.dex
+renamed.0=classes.dex

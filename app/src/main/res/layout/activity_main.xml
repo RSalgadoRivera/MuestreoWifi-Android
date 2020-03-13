@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rabdos7.muestreowifi.MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_Muestra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginStart="14dp"
+        android:text="Muestra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_Guardar"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_Guardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:text="Exportar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_Muestra" />
+
+    <EditText
+        android:id="@+id/etxt_X"
+        android:layout_width="276dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Distancia en el eje de letras"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etxt_Y"
+        android:layout_width="275dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="47dp"
+        android:ems="10"
+        android:hint="Distancia en el eje de números"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="@+id/etxt_X"
+        app:layout_constraintTop_toBottomOf="@+id/etxt_X" />
+
+    <EditText
+        android:id="@+id/etxt_Z"
+        android:layout_width="283dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:hint="Piso en que estás(numero)"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/etxt_Y"
+        app:layout_constraintTop_toBottomOf="@+id/etxt_Y" />
+
+    <EditText
+        android:id="@+id/etxt_Area"
+        android:layout_width="268dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="52dp"
+        android:ems="10"
+        android:hint="Identificador de área"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/btn_Muestra"
+        app:layout_constraintStart_toStartOf="@+id/btn_Muestra" />
+
+</android.support.constraint.ConstraintLayout>
